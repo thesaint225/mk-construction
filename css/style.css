@@ -69,6 +69,10 @@ p {
   border-radius: 5px;
 }
 
+.bg-primary {
+  background-color: #ffb400;
+}
+
 /* working on the navbar */
 
 #navbar {
@@ -126,7 +130,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 84vh;
   background-color: rgba(0, 0, 0, 0.7);
   overflow: hidden;
 }
@@ -143,3 +147,18 @@ header:before {
   height: 100%;
   z-index: -1;
 }
+
+/* working on the request quote section */
+#request-quote,
+#request-quote > p {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+  height: 30vh;
+  white-space: pre-line;
+}
+
+/* welcome content in progress */
+
+
